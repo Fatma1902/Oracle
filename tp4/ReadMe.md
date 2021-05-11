@@ -230,10 +230,10 @@ CREATE ROLE TestTeam;
 GRANT CONNECT, CREATE SESSION, SELECT ANY TABLE TO TestTeam;
 ```sql
 ---
+
+```sql
 CREATE ROLE DevSecOpsTeam;
 GRANT ALL PRIVILEGES TO DevSecOpsTeam WITH ADMIN OPTION;
-```sql
----
 ```
 
 
